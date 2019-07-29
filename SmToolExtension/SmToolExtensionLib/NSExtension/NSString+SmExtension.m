@@ -12,7 +12,7 @@
 @implementation NSString (SmExtension)
 
 #pragma mark - 加密
-- (NSString *)Sm_MD5_16 {
+- (NSString *)sm_MD5_16 {
     const char *cStr = [self UTF8String];
     unsigned char result[CC_MD5_DIGEST_LENGTH];
     CC_MD5(cStr, (CC_LONG)strlen(cStr), result);
@@ -23,12 +23,7 @@
              ] lowercaseString];
 }
 
-/*!
- *  获取字符串的MD5编码 32位
- *
- *  @return MD5编码
- */
-- (NSString *)Sm_MD5_32 {
+- (NSString *)sm_MD5_32 {
     const char *cStr = [self UTF8String];
     unsigned char result[CC_MD5_DIGEST_LENGTH];
     CC_MD5(cStr, (CC_LONG)strlen(cStr), result);
@@ -41,5 +36,30 @@
              ] lowercaseString];
 }
 
+#pragma mark - 校验
+- (BOOL)sm_checkWithPredicate:(NSString *)preStr {
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", preStr];
+    
+    return [predicate evaluateWithObject:self];
+}
+
+- (BOOL)sm_isEmail {
+    NSString *regex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
+    
+    return [self sm_checkWithPredicate:regex];
+}
+
+- (BOOL)sm_isMobilePhone {
+    NSString *regex = @"^1[0-9][0-9]\\d{8}";
+    
+    return [self sm_checkWithPredicate:regex];
+}
+
+- (BOOL)sm_isHttp {
+    if ([self containsString:@"http"]) {
+        return YES;
+    }
+    return NO;
+}
 
 @end
