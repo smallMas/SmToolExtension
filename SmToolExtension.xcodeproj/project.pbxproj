@@ -16,6 +16,7 @@
 		9CAC10A922ED3550002898FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC10A822ED3550002898FC /* main.m */; };
 		9CAC10B322ED3550002898FC /* SmToolExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC10B222ED3550002898FC /* SmToolExtensionTests.m */; };
 		9CAC10BE22ED3550002898FC /* SmToolExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC10BD22ED3550002898FC /* SmToolExtensionUITests.m */; };
+		9CAC10CF22EF2732002898FC /* NSString+SmExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC10CE22EF2732002898FC /* NSString+SmExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9CAC10B922ED3550002898FC /* SmToolExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmToolExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CAC10BD22ED3550002898FC /* SmToolExtensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmToolExtensionUITests.m; sourceTree = "<group>"; };
 		9CAC10BF22ED3550002898FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CAC10CD22EF2732002898FC /* NSString+SmExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SmExtension.h"; sourceTree = "<group>"; };
+		9CAC10CE22EF2732002898FC /* NSString+SmExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SmExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		9CAC109522ED354E002898FC /* SmToolExtension */ = {
 			isa = PBXGroup;
 			children = (
+				9CAC10CB22EF26B6002898FC /* SmToolExtensionLib */,
 				9CAC109622ED354E002898FC /* AppDelegate.h */,
 				9CAC109722ED354E002898FC /* AppDelegate.m */,
 				9CAC109922ED354E002898FC /* ViewController.h */,
@@ -133,6 +137,23 @@
 				9CAC10BF22ED3550002898FC /* Info.plist */,
 			);
 			path = SmToolExtensionUITests;
+			sourceTree = "<group>";
+		};
+		9CAC10CB22EF26B6002898FC /* SmToolExtensionLib */ = {
+			isa = PBXGroup;
+			children = (
+				9CAC10CC22EF26CF002898FC /* NSExtension */,
+			);
+			path = SmToolExtensionLib;
+			sourceTree = "<group>";
+		};
+		9CAC10CC22EF26CF002898FC /* NSExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9CAC10CD22EF2732002898FC /* NSString+SmExtension.h */,
+				9CAC10CE22EF2732002898FC /* NSString+SmExtension.m */,
+			);
+			path = NSExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CAC109B22ED354E002898FC /* ViewController.m in Sources */,
+				9CAC10CF22EF2732002898FC /* NSString+SmExtension.m in Sources */,
 				9CAC10A122ED354E002898FC /* SmToolExtension.xcdatamodeld in Sources */,
 				9CAC10A922ED3550002898FC /* main.m in Sources */,
 				9CAC109822ED354E002898FC /* AppDelegate.m in Sources */,
