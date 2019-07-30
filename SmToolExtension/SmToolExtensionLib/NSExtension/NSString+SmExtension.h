@@ -7,10 +7,42 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (SmExtension)
+
+#pragma mark - json转换
+/*!
+ * 字符串转json对象 dictionary/array
+ */
+- (id)sm_toJsonObject;
+
+#pragma mark - 计算文本长度
+/*!
+ * 计算文本宽度
+ *
+ * @param font 字体
+ * @param size size
+ */
+- (CGFloat)sm_calculateWidthWithFont:(UIFont *)font size:(CGSize)size;
+
+/*!
+ * 计算高度
+ *
+ * @param font 字体
+ * @param size size
+ */
+- (CGFloat)sm_calculateHeightWithFont:(UIFont *)font size:(CGSize)size;
+
+/*!
+ * 计算文本rect
+ *
+ * @param font 字体
+ * @param size size
+ */
+- (CGRect)sm_calculateRectWithFont:(UIFont *)font size:(CGSize)size;
 
 #pragma mark - 加密
 /*!
@@ -56,6 +88,25 @@ NS_ASSUME_NONNULL_BEGIN
  * @return 是否是http链接
  */
 - (BOOL)sm_isHttp;
+
+#pragma mark - 字符串查找
+/*!
+ * 查找关键字所有位置
+ *
+ * @param subStr 查找的关键字
+ */
+- (NSArray *)sm_findSubString:(NSString *)subStr;
+
+/*!
+ * 查找关键字最后一个位置
+ *
+ * @param subStr 查找的关键字
+ */
+- (NSRange)sm_findLastSubString:(NSString *)subStr;
+
+/*! 截取字符串方法封装 */
+- (NSArray *)sm_subStringFrom:(NSString *)startString to:(NSString *)endString;
+
 
 @end
 

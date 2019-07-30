@@ -17,6 +17,16 @@
 		9CAC10B322ED3550002898FC /* SmToolExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC10B222ED3550002898FC /* SmToolExtensionTests.m */; };
 		9CAC10BE22ED3550002898FC /* SmToolExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC10BD22ED3550002898FC /* SmToolExtensionUITests.m */; };
 		9CAC10CF22EF2732002898FC /* NSString+SmExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC10CE22EF2732002898FC /* NSString+SmExtension.m */; };
+		9CAC111522F07052002898FC /* NSTimer+SmExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC111422F07052002898FC /* NSTimer+SmExtension.m */; };
+		9CAC111822F071AB002898FC /* NSObject+SmExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC111722F071AB002898FC /* NSObject+SmExtension.m */; };
+		9CAC111B22F0723F002898FC /* NSArray+SmExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC111A22F0723F002898FC /* NSArray+SmExtension.m */; };
+		9CAC111F22F07357002898FC /* SmUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC111E22F07357002898FC /* SmUtility.m */; };
+		9CAC112222F075B5002898FC /* NSDictionary+SmExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC112122F075B5002898FC /* NSDictionary+SmExtension.m */; };
+		9CAC112522F0794D002898FC /* UIColor+SmExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC112422F0794D002898FC /* UIColor+SmExtension.m */; };
+		9CAC112822F079CF002898FC /* UIView+SmExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC112722F079CF002898FC /* UIView+SmExtension.m */; };
+		9CAC112B22F07D93002898FC /* UIViewController+SmExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC112A22F07D93002898FC /* UIViewController+SmExtension.m */; };
+		9CAC112E22F07EB9002898FC /* UILabel+SmExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC112D22F07EB9002898FC /* UILabel+SmExtension.m */; };
+		9CAC113122F07F8E002898FC /* UIButton+SmExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC113022F07F8E002898FC /* UIButton+SmExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +66,27 @@
 		9CAC10BF22ED3550002898FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CAC10CD22EF2732002898FC /* NSString+SmExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SmExtension.h"; sourceTree = "<group>"; };
 		9CAC10CE22EF2732002898FC /* NSString+SmExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SmExtension.m"; sourceTree = "<group>"; };
+		9CAC111122F00043002898FC /* SmToolExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmToolExtension.h; sourceTree = "<group>"; };
+		9CAC111322F07052002898FC /* NSTimer+SmExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+SmExtension.h"; sourceTree = "<group>"; };
+		9CAC111422F07052002898FC /* NSTimer+SmExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+SmExtension.m"; sourceTree = "<group>"; };
+		9CAC111622F071AB002898FC /* NSObject+SmExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SmExtension.h"; sourceTree = "<group>"; };
+		9CAC111722F071AB002898FC /* NSObject+SmExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SmExtension.m"; sourceTree = "<group>"; };
+		9CAC111922F0723F002898FC /* NSArray+SmExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+SmExtension.h"; sourceTree = "<group>"; };
+		9CAC111A22F0723F002898FC /* NSArray+SmExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SmExtension.m"; sourceTree = "<group>"; };
+		9CAC111D22F07357002898FC /* SmUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmUtility.h; sourceTree = "<group>"; };
+		9CAC111E22F07357002898FC /* SmUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmUtility.m; sourceTree = "<group>"; };
+		9CAC112022F075B5002898FC /* NSDictionary+SmExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SmExtension.h"; sourceTree = "<group>"; };
+		9CAC112122F075B5002898FC /* NSDictionary+SmExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SmExtension.m"; sourceTree = "<group>"; };
+		9CAC112322F0794D002898FC /* UIColor+SmExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+SmExtension.h"; sourceTree = "<group>"; };
+		9CAC112422F0794D002898FC /* UIColor+SmExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SmExtension.m"; sourceTree = "<group>"; };
+		9CAC112622F079CF002898FC /* UIView+SmExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SmExtension.h"; sourceTree = "<group>"; };
+		9CAC112722F079CF002898FC /* UIView+SmExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SmExtension.m"; sourceTree = "<group>"; };
+		9CAC112922F07D93002898FC /* UIViewController+SmExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SmExtension.h"; sourceTree = "<group>"; };
+		9CAC112A22F07D93002898FC /* UIViewController+SmExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SmExtension.m"; sourceTree = "<group>"; };
+		9CAC112C22F07EB9002898FC /* UILabel+SmExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+SmExtension.h"; sourceTree = "<group>"; };
+		9CAC112D22F07EB9002898FC /* UILabel+SmExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SmExtension.m"; sourceTree = "<group>"; };
+		9CAC112F22F07F8E002898FC /* UIButton+SmExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+SmExtension.h"; sourceTree = "<group>"; };
+		9CAC113022F07F8E002898FC /* UIButton+SmExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SmExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +173,10 @@
 		9CAC10CB22EF26B6002898FC /* SmToolExtensionLib */ = {
 			isa = PBXGroup;
 			children = (
+				9CAC111C22F07347002898FC /* SmUtility */,
+				9CAC111222F06E7D002898FC /* UIExtension */,
 				9CAC10CC22EF26CF002898FC /* NSExtension */,
+				9CAC111122F00043002898FC /* SmToolExtension.h */,
 			);
 			path = SmToolExtensionLib;
 			sourceTree = "<group>";
@@ -152,8 +186,42 @@
 			children = (
 				9CAC10CD22EF2732002898FC /* NSString+SmExtension.h */,
 				9CAC10CE22EF2732002898FC /* NSString+SmExtension.m */,
+				9CAC111322F07052002898FC /* NSTimer+SmExtension.h */,
+				9CAC111422F07052002898FC /* NSTimer+SmExtension.m */,
+				9CAC111622F071AB002898FC /* NSObject+SmExtension.h */,
+				9CAC111722F071AB002898FC /* NSObject+SmExtension.m */,
+				9CAC111922F0723F002898FC /* NSArray+SmExtension.h */,
+				9CAC111A22F0723F002898FC /* NSArray+SmExtension.m */,
+				9CAC112022F075B5002898FC /* NSDictionary+SmExtension.h */,
+				9CAC112122F075B5002898FC /* NSDictionary+SmExtension.m */,
 			);
 			path = NSExtension;
+			sourceTree = "<group>";
+		};
+		9CAC111222F06E7D002898FC /* UIExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9CAC112322F0794D002898FC /* UIColor+SmExtension.h */,
+				9CAC112422F0794D002898FC /* UIColor+SmExtension.m */,
+				9CAC112622F079CF002898FC /* UIView+SmExtension.h */,
+				9CAC112722F079CF002898FC /* UIView+SmExtension.m */,
+				9CAC112922F07D93002898FC /* UIViewController+SmExtension.h */,
+				9CAC112A22F07D93002898FC /* UIViewController+SmExtension.m */,
+				9CAC112C22F07EB9002898FC /* UILabel+SmExtension.h */,
+				9CAC112D22F07EB9002898FC /* UILabel+SmExtension.m */,
+				9CAC112F22F07F8E002898FC /* UIButton+SmExtension.h */,
+				9CAC113022F07F8E002898FC /* UIButton+SmExtension.m */,
+			);
+			path = UIExtension;
+			sourceTree = "<group>";
+		};
+		9CAC111C22F07347002898FC /* SmUtility */ = {
+			isa = PBXGroup;
+			children = (
+				9CAC111D22F07357002898FC /* SmUtility.h */,
+				9CAC111E22F07357002898FC /* SmUtility.m */,
+			);
+			path = SmUtility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,10 +354,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CAC112822F079CF002898FC /* UIView+SmExtension.m in Sources */,
+				9CAC111B22F0723F002898FC /* NSArray+SmExtension.m in Sources */,
+				9CAC111522F07052002898FC /* NSTimer+SmExtension.m in Sources */,
+				9CAC112222F075B5002898FC /* NSDictionary+SmExtension.m in Sources */,
+				9CAC111822F071AB002898FC /* NSObject+SmExtension.m in Sources */,
 				9CAC109B22ED354E002898FC /* ViewController.m in Sources */,
 				9CAC10CF22EF2732002898FC /* NSString+SmExtension.m in Sources */,
 				9CAC10A122ED354E002898FC /* SmToolExtension.xcdatamodeld in Sources */,
+				9CAC113122F07F8E002898FC /* UIButton+SmExtension.m in Sources */,
 				9CAC10A922ED3550002898FC /* main.m in Sources */,
+				9CAC112522F0794D002898FC /* UIColor+SmExtension.m in Sources */,
+				9CAC112B22F07D93002898FC /* UIViewController+SmExtension.m in Sources */,
+				9CAC111F22F07357002898FC /* SmUtility.m in Sources */,
+				9CAC112E22F07EB9002898FC /* UILabel+SmExtension.m in Sources */,
 				9CAC109822ED354E002898FC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
